@@ -22,7 +22,7 @@ header>h1 {
     line-height: 66px;
     letter-spacing: -0.004em;
     color: #75B79E;
-    margin-top: 40px;
+    margin: 40px 0 30px 0;
 }
 
 main{
@@ -40,7 +40,7 @@ main{
     background-color: #A7E9AF;
     border: 1px solid #99CEA8;
     border-radius: 5px;
-    margin: 40px 25px;
+    margin: 17px 25px;
 
     display: flex;
     align-items: center;
@@ -49,4 +49,21 @@ main{
 
 img{
     width: 100px;
+}
+
+@media (max-width: 612px){
+
+    header>h1 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: -0.004em;
+        color: #75B79E;
+        
+    }
+    
+    main{
+        justify-content: center;
+    }
 }
