@@ -25,10 +25,18 @@ header>h1 {
     margin: 40px 0 30px 0;
 }
 
+p {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -0.004em;
+    color: #75B79E;
+    margin: 10px;
+}
+
 main{
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
     width: 75%;
 
@@ -68,6 +76,14 @@ main{
 
   .virar-carta .frente {
     transform: rotateY(-180deg);
+  }
+
+  .cronometro {
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: fixed;
+    top: 2px;
+    right: 2px;
   }
 
 img{
