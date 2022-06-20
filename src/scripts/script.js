@@ -18,7 +18,7 @@ function inciarJogo() {
         if(qtd%2 === 0 && qtd > 3 && qtd <15){
             proseguir ++;
         }else{
-            qtd = Number(prompt("Escolha o numero de cartas entre 4 a 14"));}
+            qtd = Number(prompt("Escolha um numero par de cartas entre 4 a 14"));}
     }
     timer = 0
     document.querySelector("main").innerHTML="";
